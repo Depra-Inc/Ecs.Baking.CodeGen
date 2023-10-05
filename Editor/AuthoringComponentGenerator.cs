@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Depra.CodeGen.Attributes;
 using Depra.CodeGen.Context;
@@ -9,7 +8,6 @@ using Depra.Ecs.Baking.CodeGen.Runtime;
 namespace Depra.Ecs.Baking.CodeGen.Editor
 {
 	[Generator]
-	[SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
 	public sealed class AuthoringComponentGenerator : ICodeGenerator
 	{
 		void ICodeGenerator.Execute(GeneratorContext context)
