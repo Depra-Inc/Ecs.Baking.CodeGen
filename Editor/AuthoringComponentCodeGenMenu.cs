@@ -15,7 +15,7 @@ namespace Depra.Ecs.Baking.CodeGen.Editor
 		{
 			UnityCodeGenUtility.Generate<AuthoringComponentGenerator>();
 
-			Debug.Log("Component bakers generated.");
+			Debug.Log("Authoring components generated.");
 		}
 	}
 }
