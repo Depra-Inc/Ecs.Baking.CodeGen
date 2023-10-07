@@ -55,6 +55,7 @@
 
 ```
 "com.depra.ecs.baking": "https://github.com/Depra-Inc/Ecs.Baking.git"
+"com.depra.codegen": "https://github.com/Depra-Inc/CodeGen.Unity.git",
 "com.depra.ecs.baking.codegen": "https://github.com/Depra-Inc/Ecs.Baking.CodeGen.git"
 ```
 
