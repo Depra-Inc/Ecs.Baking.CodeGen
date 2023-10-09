@@ -6,7 +6,6 @@ using System.Linq;
 using Depra.CodeGen.Attributes;
 using Depra.CodeGen.Context;
 using Depra.CodeGen.Core;
-using Depra.Ecs.Baking.CodeGen.Runtime;
 
 namespace Depra.Ecs.Baking.CodeGen.Editor
 {

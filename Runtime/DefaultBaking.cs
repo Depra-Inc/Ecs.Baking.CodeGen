@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Depra.Ecs.Baking.CodeGen.Runtime
+namespace Depra.Ecs.Baking.CodeGen
 {
 	[AttributeUsage(AttributeTargets.Struct)]
 	public sealed class DefaultBaking : Attribute { }
