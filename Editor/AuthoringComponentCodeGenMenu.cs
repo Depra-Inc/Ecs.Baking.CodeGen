@@ -8,7 +8,7 @@ using static Depra.Ecs.Baking.CodeGen.Editor.Module;
 
 namespace Depra.Ecs.Baking.CodeGen.Editor
 {
-	public static class AuthoringComponentCodeGenMenu
+	internal static class AuthoringComponentCodeGenMenu
 	{
 		[MenuItem(MODULE_PATH + "Generate Authoring Components")]
 		private static void GenerateComponentBakers()

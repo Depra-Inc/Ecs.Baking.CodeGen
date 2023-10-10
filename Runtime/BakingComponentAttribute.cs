@@ -6,5 +6,5 @@ using System;
 namespace Depra.Ecs.Baking.CodeGen
 {
 	[AttributeUsage(AttributeTargets.Struct)]
-	public sealed class DefaultBaking : Attribute { }
+	public sealed class BakingComponentAttribute : Attribute { }
 }

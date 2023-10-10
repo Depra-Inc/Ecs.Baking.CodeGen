@@ -13,6 +13,7 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
+        "Depra.Ecs.dll",
         "Depra.CodeGen.dll"
     ],
     "autoReferenced": false,
