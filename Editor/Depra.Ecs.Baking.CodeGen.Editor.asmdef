@@ -14,6 +14,7 @@
     "overrideReferences": true,
     "precompiledReferences": [
         "Depra.Ecs.dll",
+        "Depra.Ecs.QoL.dll",
         "Depra.CodeGen.dll"
     ],
     "autoReferenced": false,

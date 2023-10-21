@@ -1,6 +1,6 @@
 {
 	"name": "com.depra.ecs.baking.codegen",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"displayName": "Depra.Ecs.Baking.CodeGen",
 	"description": "Depra.Ecs extension for efficient Authoring Component code generation.",
 	"unity": "2022.3",
