@@ -1,5 +1,5 @@
 {
-    "name": "Depra.Ecs.Baking.CodeGen.Runtime",
+    "name": "Depra.Ecs.Hybrid.CodeGen.Runtime",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],

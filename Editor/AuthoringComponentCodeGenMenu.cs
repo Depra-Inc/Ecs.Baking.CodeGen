@@ -4,9 +4,9 @@
 using Depra.CodeGen.Editor.Pipeline;
 using UnityEditor;
 using UnityEngine;
-using static Depra.Ecs.Baking.CodeGen.Editor.Module;
+using static Depra.Ecs.Hybrid.CodeGen.Editor.Module;
 
-namespace Depra.Ecs.Baking.CodeGen.Editor
+namespace Depra.Ecs.Hybrid.CodeGen.Editor
 {
 	internal static class AuthoringComponentCodeGenMenu
 	{

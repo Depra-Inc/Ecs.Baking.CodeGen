@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Depra.Ecs.Baking.CodeGen
+namespace Depra.Ecs.Hybrid.CodeGen
 {
 	[AttributeUsage(AttributeTargets.Struct)]
 	public sealed class BakingComponentAttribute : Attribute { }

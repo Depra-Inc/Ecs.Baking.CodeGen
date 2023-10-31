@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Depra.Ecs.Baking.CodeGen.Editor
+namespace Depra.Ecs.Hybrid.CodeGen.Editor
 {
 	internal static class StringExtensions
 	{
