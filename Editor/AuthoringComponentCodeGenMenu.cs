@@ -10,7 +10,7 @@ namespace Depra.Ecs.Hybrid.CodeGen.Editor
 {
 	internal static class AuthoringComponentCodeGenMenu
 	{
-		[MenuItem(MODULE_PATH + "Generate Authoring Components")]
+		[MenuItem(FRAMEWORK_NAME + SLASH + nameof(CodeGen) + "/Generate/Authoring Components")]
 		private static void GenerateComponentBakers()
 		{
 			UnityCodeGenUtility.Generate<AuthoringComponentGenerator>();
