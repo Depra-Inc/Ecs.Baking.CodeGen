@@ -1,6 +1,6 @@
 {
 	"name": "com.depra.ecs.hybrid.codegen",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"displayName": "Depra.Ecs.Hybrid.CodeGen",
 	"description": "Depra.Ecs extension for efficient Authoring Component code generation.",
 	"unity": "2022.3",
