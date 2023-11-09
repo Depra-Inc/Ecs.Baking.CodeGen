@@ -44,9 +44,9 @@ public sealed class {className} : {nameof(MonoBehaviour)}, {nameof(IAuthoring)}
 {{{authoringFields}{bakerFactory}
 	private readonly struct Baker : {nameof(IBaker)}
 	{{{bakerDefinition}
-		void {nameof(IBaker)}.{nameof(IBaker.Bake)}({nameof(IAuthoring)} authoring, {nameof(World)} world)
+		void {nameof(IBaker)}.{nameof(IBaker.Bake)}({nameof(IAuthoring)} authoringEntity, {nameof(World)} world)
 		{{
-			if ((({nameof(IAuthoringEntity)}) authoring).{nameof(IAuthoringEntity.TryGetEntity)}(out var entity))
+			if ((({nameof(IAuthoringEntity)}) authoringEntity).{nameof(IAuthoringEntity.Unpack)}(out var entity))
 			{{
 				{componentAllocation}
 			}}
