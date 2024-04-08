@@ -1,6 +1,6 @@
 {
-    "name": "Depra.Ecs.Hybrid.CodeGen.Runtime",
-    "rootNamespace": "",
+    "name": "Depra.Ecs.Hybrid.CodeGen",
+    "rootNamespace": "Depra.Ecs.Hybrid.CodeGen",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

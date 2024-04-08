@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿// SPDX-License-Identifier: Apache-2.0
+// © 2023-2024 Nikolay Melnikov <n.melnikov@depra.org>
+
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Depra.Ecs.Components;
@@ -10,9 +13,11 @@ namespace Depra.Ecs.Hybrid.CodeGen.Editor
 	internal static class BakerTemplate
 	{
 		private const string DOT = ".";
-		private const string GET_POOL_METHOD_NAME = nameof(World.Pool);
 		private const string ALLOCATE_METHOD_NAME = nameof(IComponentPool.Allocate);
-		private const string GET_POOL_METHOD_FORMAT = "world." + GET_POOL_METHOD_NAME + "<{0}>()";
+
+		private const string GET_POOL_METHOD_FORMAT =
+			"world." + nameof(World.Pools) + "." + nameof(ComponentPoolGroup.Get) + "<{0}>()";
+
 		private const string ALLOCATE_METHOD_FORMAT = GET_POOL_METHOD_FORMAT + DOT + ALLOCATE_METHOD_NAME + "(entity)";
 
 		public static string GenerateDefinition(int componentFieldsCount) => componentFieldsCount switch

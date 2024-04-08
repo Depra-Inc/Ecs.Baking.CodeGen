@@ -1,20 +1,22 @@
 {
 	"name": "com.depra.ecs.hybrid.codegen",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"displayName": "Depra.Ecs.Hybrid.CodeGen",
 	"description": "Depra.Ecs extension for efficient Authoring Component code generation.",
 	"unity": "2022.3",
 	"license": "Apache-2.0",
+	"dependencies": {
+		"com.depra.ecs.hybrid": "0.1.8"
+	},
 	"keywords": [
-		"Depra",
-		"Ecs",
-		"Bake",
-		"Baking",
-		"Authoring",
-		"Conversion",
-		"Code",
-		"CodeGen",
-		"Generation"
+		"ecs",
+		"bake",
+		"baking",
+		"authoring",
+		"conversion",
+		"code",
+		"codeGen",
+		"generation"
 	],
 	"author": {
 		"name": "Depra, Inc.",

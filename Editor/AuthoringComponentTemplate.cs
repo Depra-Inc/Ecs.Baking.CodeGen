@@ -1,4 +1,7 @@
-﻿using System.Linq;
+﻿// SPDX-License-Identifier: Apache-2.0
+// © 2023-2024 Nikolay Melnikov <n.melnikov@depra.org>
+
+using System.Linq;
 using System.Reflection;
 using Depra.Ecs.Hybrid.Components;
 using UnityEngine;
