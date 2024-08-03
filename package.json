@@ -1,12 +1,12 @@
 {
 	"name": "com.depra.ecs.hybrid.codegen",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"displayName": "Depra.Ecs.Hybrid.CodeGen",
 	"description": "Depra.Ecs extension for efficient Authoring Component code generation.",
 	"unity": "2022.3",
 	"license": "Apache-2.0",
 	"dependencies": {
-		"com.depra.ecs.hybrid": "0.1.8"
+		"com.depra.ecs.hybrid": "0.2.4"
 	},
 	"keywords": [
 		"ecs",

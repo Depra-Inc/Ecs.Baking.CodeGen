@@ -6,7 +6,6 @@ using System.Linq;
 using System.Reflection;
 using Depra.Ecs.Components;
 using Depra.Ecs.Hybrid.Components;
-using Depra.Ecs.Worlds;
 
 namespace Depra.Ecs.Hybrid.CodeGen.Editor
 {
@@ -14,11 +13,7 @@ namespace Depra.Ecs.Hybrid.CodeGen.Editor
 	{
 		private const string DOT = ".";
 		private const string ALLOCATE_METHOD_NAME = nameof(IComponentPool.Allocate);
-
-		private const string GET_POOL_METHOD_FORMAT =
-			"world." + nameof(World.Pools) + "." + nameof(ComponentPoolGroup.Get) + "<{0}>()";
-
-		private const string ALLOCATE_METHOD_FORMAT = GET_POOL_METHOD_FORMAT + DOT + ALLOCATE_METHOD_NAME + "(entity)";
+		private const string ALLOCATE_METHOD_FORMAT = "world.Pool<{0}>()" + DOT + ALLOCATE_METHOD_NAME + "(entity)";
 
 		public static string GenerateDefinition(int componentFieldsCount) => componentFieldsCount switch
 		{
